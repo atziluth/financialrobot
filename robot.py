@@ -12,6 +12,7 @@ from linebot.models import (
 import json
 import configparser
 import datetime
+import os
 
 app = Flask(__name__)
 
