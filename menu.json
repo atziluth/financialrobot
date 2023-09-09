@@ -1,0 +1,131 @@
+{
+  "type": "bubble",
+  "size": "kilo",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/preszH7.jpg",
+    "position": "relative",
+    "gravity": "top",
+    "size": "full",
+    "aspectMode": "cover",
+    "aspectRatio": "1.6:1"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "財報選單",
+        "color": "#008ae6",
+        "weight": "bold",
+        "size": "lg",
+        "position": "relative",
+        "align": "center",
+        "gravity": "bottom",
+        "offsetBottom": "xs"
+      },
+      {
+        "type": "text",
+        "text": "貨出的去，人進得來，高雄發大財",
+        "size": "sm",
+        "align": "center",
+        "offsetBottom": "xs"
+      }
+    ],
+    "position": "relative",
+    "offsetBottom": "xs",
+    "spacing": "1px",
+    "height": "60px"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "營收",
+              "data": "Rev",
+              "displayText": "Rev"
+            },
+            "style": "secondary",
+            "margin": "xs",
+            "height": "sm"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "EPS",
+              "data": "Eps",
+              "displayText": "Eps"
+            },
+            "style": "secondary",
+            "margin": "xs",
+            "height": "sm"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "股利",
+              "data": "Div",
+              "displayText": "Div"
+            },
+            "style": "secondary",
+            "margin": "xs",
+            "height": "sm"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "持股結構",
+              "data": "Sha",
+              "displayText": "Sha"
+            },
+            "margin": "xs",
+            "height": "sm",
+            "style": "secondary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "流速動比",
+              "data": "Cqr",
+              "displayText": "Cqr"
+            },
+            "margin": "xs",
+            "height": "sm",
+            "style": "secondary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "毛利率",
+              "data": "Gpm",
+              "displayText": "Gpm"
+            },
+            "margin": "xs",
+            "height": "sm",
+            "style": "secondary"
+          }
+        ]
+      }
+    ]
+  }
+}
